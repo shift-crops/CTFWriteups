@@ -1,0 +1,3 @@
+CREATE TABLE super_secret_flag__Ds7KLcV9 'yo_yo_you_are_enjoying_blind_sqli TEXT)
+
+ADCTF_ERR0r_hELP5_8L1nd_5Ql1

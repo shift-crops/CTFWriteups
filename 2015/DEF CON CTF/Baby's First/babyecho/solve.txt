@@ -1,0 +1,8 @@
+return %267$08x
+canary %263$08x
+stack  %262$08x
+
+addr_len 	= stack - 0x4ac
+addr_str 	= stack - 0x4a0
+addr_canary	= stack - 0xa0
+addr_return	= stack - 0x94

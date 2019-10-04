@@ -1,0 +1,16 @@
+import socket
+
+rhp     = ("adctf2014.katsudon.org",43010)
+
+
+nc = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+nc.settimeout(5.0)
+nc.connect(rhp)
+
+for i in range(10):
+    code = (nc.recv(0x4)+nc.recv(0xb6)).replace('\x20','00').replace('\xe2\x96\x90','01').replace('\xe2\x96\x8c','10').replace('\xe2\x96\x88','11')
+    msg = int(code[:-1],2)
+    print msg
+    nc.sendall(str(msg)+'\n')
+
+nc.close()

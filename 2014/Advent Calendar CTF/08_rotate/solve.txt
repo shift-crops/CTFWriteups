@@ -1,0 +1,11 @@
+a = xcosƒÆ-ysinƒÆ
+b = xsinƒÆ+ycosƒÆ
+
+(xcosƒÆ-a)/sinƒÆ=(b-xsinƒÆ)/cosƒÆ
+(xcosƒÆ-a)*cosƒÆ=(b-xsinƒÆ)*sinƒÆ
+x = acosƒÆ+bsinƒÆ
+y =-asinƒÆ+bcosƒÆ
+
+ƒÆ=123‹
+
+ADCTF_TR0t4T3_f4C3

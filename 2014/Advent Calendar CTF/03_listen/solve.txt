@@ -1,0 +1,6 @@
+0x1C-0x1f: 44100 byte/s
+0x22-0x24: 16bit/sample -> 2byte/sample
+
+0x18-0x1b: 22050 Hz
+
+ADCTF_SOUNDS_GOOD

@@ -1,0 +1,10 @@
+$nc 188.166.133.53 12049
+Solve the following equations:
+X > 1337
+X * 7 + 4 = 1337
+Enter the solution X: 613566947
+You entered: 613566947
+613566947 is bigger than 1337
+1337 is equal to 1337
+Well done!
+IW{Y4Y_0verfl0w}

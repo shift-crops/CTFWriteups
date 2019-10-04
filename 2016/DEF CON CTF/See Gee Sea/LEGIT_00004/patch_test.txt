@@ -1,0 +1,1 @@
+(ls -l legit_00004_patched | cut -f 5 -d " "; cat legit_00004_patched) | nc legit_00004_patch_c87784d25829f281e6d0205eaac5da7c.quals.shallweplayaga.me 23274

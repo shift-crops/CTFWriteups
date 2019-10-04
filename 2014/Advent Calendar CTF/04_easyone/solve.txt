@@ -1,0 +1,9 @@
+(gdb) b *0x4006a2
+Breakpoint 1 at 0x4006a2
+(gdb) r
+Starting program: /home/yutaro/programs/CTF/adctf/easyone 
+password: aaaa
+
+Breakpoint 1, 0x00000000004006a2 in main ()
+(gdb) x/s $rbp-0x30
+0x7fffffffded0:	"ADCTF_7H15_15_7oO_345y_FOR_M3"

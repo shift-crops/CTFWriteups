@@ -1,0 +1,34 @@
+$ id
+uid=1000(tehran) gid=1000(tehran) groups=1000(tehran)
+$ cat flag
+cat: flag: No such file or directory
+$ ls
+bin
+boot
+dev
+etc
+home
+lib
+lib64
+media
+mnt
+opt
+proc
+root
+run
+sbin
+srv
+sys
+tmp
+usr
+var
+$ cd /home
+$ ls
+tehran
+$ cd tehran
+$ ls
+flag
+tehran_8c57edb7ffbb3776e3b3f8ad0468caae
+$ cat flag
+ASIS{D1d_U_M133_M3_D1d_U_M133_M3?}
+$
