@@ -1,0 +1,18 @@
+a ≡ m^p (mod p*q)
+b ≡ m^q (mod p*q)
+c ≡ m^(p*q) (mod p*q)
+
+c*a^-1 ≡ m^(p*q - p)
+       ＝ m^(p(q-1))
+
+c*(a^-1)*(b^-1) ≡ m^(p(q-1)-q)
+                ＝ m^(p(q-1)-(q-1)-1)
+                ＝ m^((p-1)(q-1)-1)
+                ≡ m^(-1) (mod p*q)
+a*b*(c^-1) ≡ m (mod p*q)
+
+>>> ci = pow(c, -1, n)
+>>> hex(a*b*ci % n)
+'0x43616b654354467b6f685f796f755f676f745f615f74657069645f63616b655f736f7272797d'
+>>> bytes.fromhex(hex(a*b*ci % n)[2:])
+b'CakeCTF{oh_you_got_a_tepid_cake_sorry}'

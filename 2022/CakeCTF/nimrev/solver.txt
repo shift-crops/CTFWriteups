@@ -1,0 +1,6 @@
+gdb
+
+b eqStrings
+r
+x/s $rsi+0x10
+0x7ffff7d4f0e0: "CakeCTF{s0m3t1m3s_n0t_C}"
