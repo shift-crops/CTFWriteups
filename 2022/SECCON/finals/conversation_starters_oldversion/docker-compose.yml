@@ -1,0 +1,14 @@
+version: '3'
+services:
+  conv_starter_dist:
+    build:
+      context: .
+    working_dir: /home/pwn
+    container_name: conv_starter_dist
+    ulimits:
+      nproc: 65535
+      core: 0
+    ports:
+      - "9002:9999"
+    entrypoint: /etc/init.sh
+    restart: always
