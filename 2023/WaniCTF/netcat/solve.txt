@@ -1,0 +1,4 @@
+nc netcat-pwn.wanictf.org 9001
+やるだけ
+cat FLAG
+FLAG{1375_k339_17_u9_4nd_m0v3_0n_2_7h3_n3x7!}

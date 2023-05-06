@@ -1,0 +1,5 @@
+nc only-once-pwn.wanictf.org 9002
+aaaaaaaa
+やるだけ
+cat FLAG
+FLAG{y0u_4r3_600d_47_c41cu14710n5!}
