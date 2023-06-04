@@ -1,0 +1,1 @@
+echo -4 | nc poem.beginners.seccon.games 9000

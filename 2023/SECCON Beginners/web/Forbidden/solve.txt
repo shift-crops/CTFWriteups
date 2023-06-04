@@ -1,0 +1,2 @@
+https://forbidden.beginners.seccon.games/Flag
+ctf4b{403_forbidden_403_forbidden_403}
