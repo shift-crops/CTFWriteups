@@ -6,16 +6,17 @@ def main():
 
     for c in cipher:
         for i in range(len(cipher)):
-            x = (c-i)**0.5
-            if x.is_integer():
-                align[i] = int(x) 
+            x = int((c-i)**0.5)
+            if x ** 2 == c-i:
+                align[i] = x
                 break
     print(align)
 
     flag = b'c'
     for i in range(len(align)):
         flag += bytes([align[i]-flag[i]])
-    print(flag)
+    print(flag.decode())
 
 if __name__ == '__main__':
     main()
+
