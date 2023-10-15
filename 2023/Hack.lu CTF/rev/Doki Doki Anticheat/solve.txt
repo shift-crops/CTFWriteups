@@ -1,0 +1,3 @@
+strings log | grep ' ' | sed 's/ /_/g'
+
+flag{...There_is_no_way_I'm_going_to_your_club.}

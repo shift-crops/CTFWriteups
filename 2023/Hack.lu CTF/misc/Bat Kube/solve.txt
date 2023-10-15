@@ -1,0 +1,65 @@
+flag{k8s_1s_r34lly_fun_but_1ts_3v3n_b3tt3r_1n_CTFS}
+
+$ kubectl --kubeconfig config get secret
+NAME                        TYPE     DATA   AGE
+kube-baby-flag-part1-of-3   Opaque   2      17m
+
+$ kubectl --kubeconfig config get secret kube-baby-flag-part1-of-3 -o jsonpath='{.data}'
+{"flag":"ZmxhZ3trOHNfMXNf","hint":"RG8geW91IGtub3cgbmFtZXNwYWNlcz8="}
+
+$ kubectl --kubeconfig config get namespaces
+NAME               STATUS   AGE
+default            Active   22m
+kube-node-lease    Active   22m
+kube-public        Active   22m
+kube-system        Active   22m
+secret-namespace   Active   21m
+
+$ kubectl --kubeconfig config -n secret-namespace get pods
+NAME                                         READY   STATUS    RESTARTS   AGE
+kube-baby-flag-part2-of-3-6b97f47974-2n5rl   1/1     Running   0          25m
+kube-baby-flag-part2-of-3-6b97f47974-vdw4t   1/1     Running   0          25m
+
+$ kubectl --kubeconfig config -n secret-namespace describe pod/kube-baby-flag-part2-of-3-6b97f47974-2n5rl
+(snip)
+    Command:
+      /bin/sh
+    Args:
+      -c
+      while true; do printenv FLAG FLAG_HINT; sleep 300; done
+    Environment:
+      INSECURE_FLAG:  Its a baby challenge, but this would be too easy... :D
+      FLAG:           <set to the key 'flag' in secret 'kube-baby-flag-part2-of-3-user-should-not-see-this'>  Optional: false
+      FLAG_HINT:      <set to the key 'hint' in secret 'kube-baby-flag-part2-of-3-user-should-not-see-this'>  Optional: false
+(snip)
+
+$ kubectl --kubeconfig config -n secret-namespace logs kube-baby-flag-part2-of-3-6b97f47974-2n5rl
+r34lly_fun_but
+What about Flags in the Kubernetes API?
+r34lly_fun_but
+What about Flags in the Kubernetes API?
+...
+
+$ kubectl --kubeconfig config api-resources
+(snip)
+flags                                          ctf.fluxfingers.hack.lu/v1             true         Flag
+(snip)
+
+$ kubectl --kubeconfig config -n secret-namespace describe flags
+Name:         kube-baby-flag-part3-of-3
+Namespace:    secret-namespace
+Labels:       <none>
+Annotations:  <none>
+API Version:  ctf.fluxfingers.hack.lu/v1
+Kind:         Flag
+Metadata:
+  Creation Timestamp:  2023-10-15T15:58:14Z
+  Generation:          1
+  Resource Version:    308
+  UID:                 7f58c1a2-94d6-4a3c-9a3b-c7d5c737fb2c
+Spec:
+  Flag:  XzF0c18zdjNuX2IzdHQzcl8xbl9DVEZTfQ==
+  Hint:  You are on the right track, look more in detail!
+Events:  <none>
+
+
