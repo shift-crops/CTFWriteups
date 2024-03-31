@@ -1,0 +1,2 @@
+The files here are intended to help you understand the vm quickly and help you test / craft your exploit. Note that while I've tested the assembler / interpreter with a handful of inputs, the scripts are provided as is, and correctness is not guaranteed.  
+There is also a debug.c in the source code that contains helper functions that might help with debugging / understanding the workflow. Feel free to insert the debug loggings and recompile code to get a better view into the internal workings of the challenge.

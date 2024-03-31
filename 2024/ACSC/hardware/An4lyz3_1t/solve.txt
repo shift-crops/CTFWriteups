@@ -1,0 +1,4 @@
+Bit Rate: 57600
+Parity Bit: Even
+
+ACSC{b4by4n4lyz3r_548e8c80e}\r\n

