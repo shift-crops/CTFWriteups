@@ -1,0 +1,5 @@
+$ echo "13 01 10 00\n34 00 01 00\n70 00 00 00\n" | base64 | nc mc.ax 31441
+[C(OOO)RCPU]
+%Warning: /tmp/user_rom.rom:4: $readmem file ended before specified final address (IEEE 1800-2017 21.4)
+loaded roms
+dice{t0masul0_maxx1ng_h@zard_m0gged}

