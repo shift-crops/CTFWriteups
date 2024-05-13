@@ -1,0 +1,4 @@
+nc -lkvp 5000
+
+cp flag.enc /tmp/flag
+echo 127.0.0.1 | ./leak

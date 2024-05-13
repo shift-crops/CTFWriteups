@@ -1,0 +1,6 @@
+b *0x5555555562ae
+r
+set $rax=100
+c
+
+[!] You got a FLAG! ctf4b{4ll_w3_h4v3_70_d3cide_1s_wh4t_t0_d0_w1th_7he_71m3_7h47_i5_g1v3n_u5}

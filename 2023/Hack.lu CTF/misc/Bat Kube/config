@@ -1,0 +1,17 @@
+apiVersion: v1
+clusters:
+- cluster:
+    server: https://flux-cluster-40fe7c01cac84c56ad8fd61d0e2db5b8.0xf.eu
+  name: ctf-cluster
+contexts:
+- context:
+    cluster: ctf-cluster
+    user: ctf-player
+  name: ctf-cluster
+current-context: ctf-cluster
+kind: Config
+preferences: {}
+users:
+- name: ctf-player
+  user:
+    token: eyJhbGciOiJSUzI1NiIsImtpZCI6IlEzazRadGRoQlA4NjExTWlLZDFSYlhPT3owZThoSlVKeDhBbWY2Zkhma0EifQ.eyJhdWQiOlsiaHR0cHM6Ly9rdWJlcm5ldGVzLmRlZmF1bHQuc3ZjLmNsdXN0ZXIubG9jYWwiXSwiZXhwIjoxNjk3Mzg5MTA4LCJpYXQiOjE2OTczODU1MDgsImlzcyI6Imh0dHBzOi8va3ViZXJuZXRlcy5kZWZhdWx0LnN2Yy5jbHVzdGVyLmxvY2FsIiwia3ViZXJuZXRlcy5pbyI6eyJuYW1lc3BhY2UiOiJkZWZhdWx0Iiwic2VydmljZWFjY291bnQiOnsibmFtZSI6ImN0Zi1wbGF5ZXIiLCJ1aWQiOiJiMTUwNzg3MS05YWVmLTQzNzctYjc5NS1mMDQzYzFhMDg0ZjcifX0sIm5iZiI6MTY5NzM4NTUwOCwic3ViIjoic3lzdGVtOnNlcnZpY2VhY2NvdW50OmRlZmF1bHQ6Y3RmLXBsYXllciJ9.ay1ibpd-Gd7StXJtevvVgAT2HK3yc3M6mdMf4umEXND710pe05sN4x379e1mrxKVXO64PdeTIQdcb4MIvGKrHD-zZMgFJyesGcE5Ehka7vcGPtcNjicnixzwsI2URqFdGBvxJYrAl8OoNZYyjnXqbOn1ShcZSPKNwaD07P6Qtqd0auXupmetn77n6kJeuojRJRMk9eLb0xXQHPhaZy3Ec4nclpguuTe9-Hh5A-emM8kvUsn-k3DLA5C22mciKXpKSgetKE_B-L1zHnqV9KIn762jVp4Tgi3hAElr0jGpqXhaER3tYqHzqwiJCyIs93zGdoz82CJTMqTmswrSTFOa1A

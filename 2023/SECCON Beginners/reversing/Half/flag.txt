@@ -1,0 +1,2 @@
+.rodata:000000000000202D	00000016	C	ctf4b{ge4_t0_kn0w_the
+.rodata:0000000000002043	0000001B	C	_bin4ry_fi1e_with_s4ring3}
