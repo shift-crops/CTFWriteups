@@ -1,0 +1,7 @@
+$ cat << EOF | nc challs.actf.co 31322
+2147483647
+I confirm that I am taking this exam between the dates 5/24/2024 and 5/27/2024. I will not disclose any information about any section of this exam.
+I confirm that I am taking this exam between the dates 5/24/2024 and 5/27/2024. I will not disclose any information about any section of this exam.
+EOF
+
+`actf{manifesting_those_fives}`
