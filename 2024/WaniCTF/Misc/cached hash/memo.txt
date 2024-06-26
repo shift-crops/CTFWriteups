@@ -1,0 +1,1 @@
+$ skopeo copy docker://public.ecr.aws/s8s0z7v7/r39cvpwh:cache dir:cache

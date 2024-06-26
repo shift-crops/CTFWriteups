@@ -1,0 +1,13 @@
+dn: ou=people,dc=wani,dc=example,dc=com
+objectClass: organizationalUnit
+ou: people
+
+dn: ou=groups,dc=wani,dc=example,dc=com
+objectClass: organizationalUnit
+ou: groups
+
+dn: userid=hoge,ou=people,dc=wani,dc=example,dc=com
+objectclass: account
+objectclass: simpleSecurityObject
+userid: hoge
+userPassword: password
